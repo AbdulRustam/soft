@@ -1,0 +1,10 @@
+.col-sm-12
+  .search
+    .input-group.mb-3
+      = text_field_tag  :search,
+        params[:search],
+        placeholder:  t('users.search.field'),
+        class: "form-control"
+      .input-group-append
+        %button.btn.btn-outline-secondary{ type: 'submit' }
+          = t ('users.index.search')

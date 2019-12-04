@@ -1,0 +1,258 @@
+uk:
+  shared:
+    header:
+      logged_in: 'Ви ввійшли як'
+      edit_profile: 'Редагувати профіль'
+      logout: 'Вийти'
+      sign_up: 'Зареєструватись'
+      login: 'Увійти'
+      news: 'Новини'
+      for_entrants: 'Для вступників'
+      about_us: 'Про нас'
+      contacts: 'Контакти'
+      create_news: 'Створити Новину'
+      events: 'Події'
+      users: 'Користувачі'
+  errors:
+    messages:
+        extension_whitelist_error: "Ви не можете завантажити файлу типу: %{extension}, дозволені типи файлів: %{allowed_types}"
+  task:
+    task: 'Завдання:'
+    title: 'Заголовок'
+    add: 'Додати завдання'
+    edit: 'Редагувати завдання'
+    edit_task: 'Редагувати'
+    save: 'Зберегти'
+    delete: 'Видалити'
+    information: 'Коротка інформація'
+    completed: 'Завершено'
+  news:
+    links:
+      recent: 'Нещодавні'
+      popular: 'Популярні'
+      edit: 'Редагувати'
+      delete: 'Видалити'
+      read_more: 'Читати далі'
+      share: 'Поділитись'
+      category: 'Категорія'
+      written_by: 'Створено користувачем'
+      created_at: 'Дата створення: '
+    index:
+      sort_by: 'Сортувати:'
+      university_news: 'Новини Університету'
+      recent_news: 'Недавні Новини'
+      continue_reading: 'Читати далі...'
+      alert: 'Нічого не знайдено'
+    aside_bar:
+      about_university: 'Про наш Університет'
+      life_at_university: 'Життя в Університеті'
+      leadership_and_organisation: 'Лідерство і Організація'
+      education: 'Навчання'
+      students_community: 'Студентська спільнота'
+      arts_and_culture: 'Мистецтво та Культура'
+      sports: 'Спорт'
+    form:
+      title: 'Заголовок'
+      short_information: 'Коротка інформація'
+      body: 'Тіло новини'
+      submit: 'Застосувати'
+      image: 'Зображення'
+    new:
+      add_news: 'Додати Новину'
+    edit:
+      edit_news: 'Редагувати Новину'
+    show:
+      related_news: 'Схожі новини'
+    create:
+      notice: 'Новину успішно створено'
+      alert: 'Новину не створено'
+    destroy:
+      notice: 'Новину успішно видалено'
+      alert: 'Новину не видалено'
+    update:
+      notice: 'Новину успішно оновлено'
+      alert: 'Новину не оновлено'
+    selector:
+      button: 'Фільтрувати'
+    search:
+      field: 'Введіть пошук'
+  categories:
+    new:
+      headline: 'Створити нову категорію'
+    form:
+      button: 'Створити'
+      name: 'Назва Категорії'
+      description: 'Опис Категорії'
+    links:
+      edit: 'Редагувати Категорію'
+      delete: 'Видалити Категорію'
+      create: 'Створити Категорію'
+    index:
+      headline_index: 'Категорії'
+      headline_edit: 'Редагувати Категорію'
+    create:
+      notice: 'Категорію успішно створено'
+      alert: 'Категорію не створено'
+    destroy:
+      notice: 'Категорію успішно видалено'
+      alert: 'Категорію не видалено'
+    update:
+      notice: 'Категорію успішно оновлено'
+      alert: 'Категорію не оновлено'
+  contacts:
+    information:
+      our_contacts: 'Наші контакти'
+      address: 'Адресса:'
+      telephone: 'Телефон:'
+      phone_number: '+38 000 000 000'
+      location: 'вул. Пастернака, 5'
+      contact_us: 'Напишіть нам на пошту'
+    placeholder:
+      email: 'Ваша пошта'
+      name: "Ваше ім'я"
+      message: 'Ваше повідомлення'
+    send_message: 'Надіслати повідомлення'
+  contact_us:
+    notice: 'Повідомлення успішно відправлено'
+    contact_form: 'Напишіть нам'
+  events:
+    index:
+      organizer: 'Організатор'
+      date: 'Дата проведення'
+      time: 'Час проведення'
+      start: 'Початок'
+      end: 'Закінчення'
+      venue: 'Місце проведення'
+      cost: 'Ціна події'
+      free: 'Безкоштовно'
+      sign: '-'
+      create: 'Додати подію'
+      upcoming_events: 'Скоро відбудуться'
+    show:
+      next_events: 'Наступні події'
+      currency: 'грн'
+      attendees: 'Учасники:'
+      question: 'Ти підеш?'
+      ans_yes: 'Так'
+      ans_no: 'Ні'
+    subscribe:
+      notice_yes: 'Вас додано до числа учасників'
+    unsubscribe:
+      notice_no: 'Вас виключено з числа учасників'
+    new:
+      add_event: 'Додати подію'
+    edit:
+      edit_event: 'Редагувати подію'
+    form:
+      title: 'Заголовок'
+      description: 'Про подію'
+      submit: 'Застосувати'
+      cost: "Ціна події (необов'язково)"
+      cost_msg: 'Якщо це безкоштовна подія, то встановіть ціну 0'
+      organizer_msg: 'Ви є організатором цієї події'
+    create:
+      notice: 'Подію успішно створено'
+      alert: 'Подію не створено'
+    destroy:
+      notice: 'Подію успішно видалено'
+      alert: 'Подію не видалено'
+    update:
+      notice: 'Подію успішно оновлено'
+      alert: 'Подію не оновлено'
+    errors:
+      after: 'Дата закінчення події повинна бути після дати початку події'
+      future: 'Дата повинна бути в майбутньому'
+  comments:
+    form:
+      title: 'Коментарі'
+      submit: 'Надіслати'
+      comment_placeholder: 'Текст коментаря!'
+    comment_partial:
+      reply_placeholder: 'Текст відповіді!'
+      submit: 'Надіслати'
+      delete: 'Видалити'
+      confirmation: 'Ви впевнені?'
+      add-reply: "Відповісти"
+      edit: "Редагувати"
+    create:
+      notice: 'Коментар створено!'
+      alert: 'Коментар не створено!'
+    update:
+      notice: 'Коментар відредаговано!'
+      alert: 'Коментар не відредаговано!'
+    destroy:
+      notice: 'Коментар видалено!'
+      alert: 'Коментар не видалено!'
+  users:
+    edit:
+      first_name: 'Ім`я'
+      last_name: 'Прізвище'
+      about_me: 'Про мене'
+      new_password: 'Новий пароль'
+      new_password_reaped: 'Новий пароль підтвердження'
+      current_password: 'Поточний пароль'
+      account_info: 'Інформація про користувача'
+      email_info: 'Інформація про email'
+      password_info: 'Інформація про пароль'
+      save: 'Зберегти зміни'
+      setting: 'Налаштування'
+      profile: 'Налаштування профілю'
+      description: 'Опис'
+      password: 'Пароль'
+      account: 'Акаунт'
+      email: 'Email'
+      profile: 'Профіль'
+      news: 'Новини'
+      events: 'Події'
+    user:
+      edit: 'Редаугвати'
+      submit: 'Застосувати'
+      profile: 'Профіль'
+      notice: 'Успішно оновлено'
+      alert: 'Не оновлено'
+      error: 'Помилка'
+    index:
+      users: 'Користувачі'
+      search: 'Пошук'
+      alert: 'Нічого не знайдено'
+    search:
+      field: 'Введіть пошук'
+  emailchange:
+    alert: 'Ця пошта зайнята'
+    notice: 'Email змінено'
+    current_password:
+      alert: 'Поточний пароль невірний'
+  passwords:
+    password:
+      blank: 'Пароль не може бути пустим'
+  links:
+    sign_in_with: 'Увійти за допомогою'
+  projects:
+    form:
+      image: 'Зображення'
+      name: 'Назва'
+      submit: 'Створити проект'
+      description: 'Опис'
+    new:
+      new_project: 'Новий проект'
+    edit:
+      edit_project: 'Редагувати проект'
+    create:
+      notice: 'Проект успішно створений'
+      alert: 'Проект не створений'
+    update:
+      notice: 'Проект оновлений'
+      alert: 'Проект не оновлений'
+    destroy:
+      notice: 'Проект видалений'
+      alert: 'Проект не видалений'
+    participants: 'Учасники:'
+  project_participants:
+    add_participant: 'Додати учасника'
+    remove_participant: 'Видалити учасника'
+    create:
+      notice: 'Учасник доданий'
+      alert: 'Учасник вже існує'
+    destroy:
+      notice: 'Учасник видалений'
+      alert: 'Учасник не видалений'

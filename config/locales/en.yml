@@ -1,0 +1,254 @@
+en:
+  shared:
+    header:
+      logged_in: 'Logged in as'
+      edit_profile: 'Edit profile'
+      logout: 'Logout'
+      sign_up: 'Sign up'
+      login: 'Login'
+      news: 'News'
+      for_entrants: 'For entrants'
+      about_us: 'About us'
+      contacts: 'Contacts'
+      create_news: 'Create News'
+      events: 'Events'
+      users: 'Users'
+  task:
+    task: 'Tasks:'
+    title: 'Title'
+    add: 'Add Task'
+    edit: 'Edit Task'
+    edit_task: 'Edit'
+    save: 'Save'
+    delete: 'Delete'
+    information: 'Short Information'
+    completed: 'Completed'
+  news:
+    links:
+      recent: 'Recent'
+      popular: 'Popular'
+      edit: 'Edit'
+      delete: 'Delete'
+      read_more: 'Read more'
+      share: 'Share with'
+      category: 'Category'
+      written_by: 'Written by'
+      created_at: 'Created at: '
+    index:
+      sort_by: 'Sort:'
+      university_news: 'University News'
+      recent_news: 'Recent News'
+      continue_reading: 'Continue reading'
+      alert: 'Nothing was found'
+    aside_bar:
+      about_university: 'About our University'
+      life_at_university: 'Life at University'
+      leadership_and_organisation: 'Leadership and Organisation'
+      education: 'Education'
+      students_community: 'Students Community'
+      arts_and_culture: 'Arts and Culture'
+      sports: 'Sports'
+    form:
+      title: 'Title'
+      short_information: 'Short Information'
+      body: 'Body'
+      submit: 'Submit'
+      image: 'Image'
+    new:
+      add_news: 'Add News'
+    edit:
+      edit_news: 'Edit News'
+    show:
+      related_news: 'Related News'
+    create:
+      notice: 'The News was successfully created'
+      alert: 'The News wasnt created'
+    destroy:
+      notice: 'The News was successfully deleted'
+      alert: 'The News was not deleted'
+    update:
+      notice: 'The News was successfully updated'
+      alert: 'The News was not updated'
+    selector:
+      button: 'Filter'
+    search:
+      field: 'Search here'
+  categories:
+    new:
+      headline: 'Create new category'
+    form:
+      button: 'Create'
+      name: 'Name'
+      description: 'Description'
+    links:
+      edit: 'Edit Category'
+      delete: 'Delete Category'
+      create: 'Create Category'
+    index:
+      headline_index: 'Categories'
+      headline_edit: 'Edit Category'
+    create:
+      notice: 'Category was successfully created'
+      alert: 'Category wasnt created'
+    destroy:
+      notice: 'Category was successfully deleted'
+      alert: 'Category was not deleted'
+    update:
+      notice: 'Category was successfully updated'
+      alert: 'Category was not updated'
+  contacts:
+    information:
+      our_contacts: 'Our contacts'
+      address: 'Address:'
+      telephone: 'Telephone:'
+      phone_number: '+38 000 000 000'
+      location: '5, Pasternak St.'
+      contact_us: 'Contact us with email'
+    placeholder:
+      email: 'Your email'
+      name: 'Your name'
+      message: 'Type your message'
+    send_message: 'Send message'
+  contact_us:
+    notice: 'Email was successfully sent'
+    contact_form: 'Contact us'
+  events:
+    index:
+      organizer: 'Organizer'
+      date: 'Event date'
+      time: 'Event time'
+      start: 'Event start'
+      end: 'Event end'
+      venue: 'Venue'
+      cost: 'Event cost'
+      free: 'Free'
+      sign: '-'
+      create: 'Add event'
+      upcoming_events: 'Upcoming events'
+    show:
+      next_events: 'Next events'
+      currency: 'UAH'
+      attendees: 'Attendees:'
+      question: 'Are you going?'
+      ans_yes: "Yes, I'm"
+      ans_no: "No, I'm"
+    subscribe:
+      notice_yes: 'You have been added to the list of participants'
+    unsubscribe:
+      notice_no: 'You  have been excluded from the list of participants'
+    new:
+      add_event: 'Add Event'
+    edit:
+      edit_event: 'Edit Event'
+    form:
+      title: 'Title'
+      description: 'Description'
+      cost: 'Event cost (optional)'
+      submit: 'Submit'
+      organizer_msg: 'You are the organizer of this event'
+    create:
+      notice: 'The Event was successfully created'
+      alert: 'The Event was not created'
+    destroy:
+      notice: 'The Event was successfully deleted'
+      alert: 'The Event was not deleted'
+    update:
+      notice: 'The Event was successfully updated'
+      alert: 'The Event was not updated'
+    errors:
+      after: 'The end event date must be after the event start date'
+      future: 'The date must be in the future'
+  comments:
+    form:
+      title: 'Comments'
+      submit: 'Submit'
+      comment_placeholder: 'Write new comment here!'
+    comment_partial:
+      reply_placeholder: 'Write reply here!'
+      submit: 'Send'
+      delete: 'Delete'
+      confirmation: 'Are you sure?'
+      add-reply: "Reply"
+      edit: "Edit"
+    create:
+      notice: 'Comment was successfully created'
+      alert: 'Comment was not created'
+    update:
+      notice: 'Comment was successfully edited!'
+      alert: 'Comment was not edited!'
+    destroy:
+      notice: 'Comment was successfully deleted'
+      alert: 'Comment was not deleted'
+  users:
+    edit:
+      first_name: 'First Name'
+      last_name: 'Last Name'
+      about_me: 'About Me'
+      new_password: 'New Password'
+      new_password_reaped: 'New Password Repeated'
+      current_password: 'Current Password'
+      account_info: 'Account info'
+      email_info: 'Email info'
+      password_info: 'Password info'
+      save: 'Save Change'
+      setting: 'Settings'
+      profile: 'Profile Settings'
+      description: 'Description'
+      password: 'Password'
+      account: 'Account'
+      email: 'Email'
+      profile: 'Profile'
+      news: 'News'
+      events: 'Events'
+    user:
+      edit: 'Edit'
+      submit: 'Submit'
+      profile: 'Profile'
+      notice: 'Successful update'
+      alert: 'Unsuccessful update'
+      error: 'Error'
+    index:
+      users: 'Users'
+      search: 'Search'
+      alert: 'Nothing was found'
+    search:
+      field: 'Search here'
+  emailchange:
+    alert: 'This email is occupation'
+    notice: 'Email change'
+    current_password:
+      alert: 'Current password don`t currect'
+  passwords:
+    password:
+      blank: 'Can`t be blank'
+  links:
+    sign_in_with: 'Sign in with'
+  projects:
+    form:
+      image: 'Image'
+      name: 'Name'
+      submit: 'Create Project'
+      description: 'Description'
+    new:
+      new_project: 'New Project'
+    edit:
+      edit_project: 'Edit Project'
+    create:
+      notice: 'Project successfully created'
+      alert: 'Project was not created'
+    update:
+      notice: 'Project successfully updated'
+      alert: 'Project was not updated'
+    destroy:
+      notice: 'Project successfully destroyed'
+      alert: 'Project was not destroyed'
+    participants: 'Participants:'
+  project_participants:
+    add_participant: 'Add Participant'
+    remove_participant: 'Remove Participant'
+    create:
+      notice: 'Participant successfully added'
+      alert: 'Participant exists'
+    destroy:
+      notice: 'Participant was successfully destroyed'
+      alert: 'Participant was not destroyed'

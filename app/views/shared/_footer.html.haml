@@ -1,0 +1,22 @@
+%nav.navbar.navbar-expand-sm.bg-light.footer
+  %ul.navbar-nav
+    %li.nav-item
+      %a.nav-link{ href: '#' }
+        = t('shared.header.news')
+    %li.nav-item
+      %a.nav-link{ href: events_path }
+        = t('shared.header.events')
+    %li.nav-item
+      %a.nav-link{ href: '#' }
+        = t('shared.header.for_entrants')
+    %li.nav-item
+      %a.nav-link{ href: '#' }
+        = t('shared.header.about_us')
+    %li.nav-item
+      = link_to t('shared.header.contacts'), contact_us_path, class: 'nav-link'
+  %ul.navbar-nav.ml-auto
+    %li.nav-item
+      %a
+        = link_to 'EN', url_for(locale: :en)
+        |
+        = link_to 'UK', url_for(locale: :uk)

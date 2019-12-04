@@ -1,0 +1,10 @@
+.container
+  .row.justify-content-center.mt-4
+    .col-lg-9
+      %h3.mb-4
+        = t ('events.index.upcoming_events')
+      .m-0.text-right.d-inline
+        %p
+          = link_to t('events.index.create'), new_event_path
+      .row.mb-4
+        = render @events

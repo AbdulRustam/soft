@@ -1,0 +1,32 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'vendor/**/*'
+    - 'db/schema.rb'
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+  Exclude:
+    - 'db/migrate/*'
+
+Metrics/BlockLength:
+  Exclude:
+    - 'config/environments/*'
+    - 'config/initializers/*'
+    - 'config/**/*'
+    - 'spec/**/*.rb'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'db/migrate/*'
+
+Metrics/MethodLength:
+  Exclude:
+    - 'db/migrate/*'
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - 'spec/**/users_controller_spec.rb'

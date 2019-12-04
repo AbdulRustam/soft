@@ -1,0 +1,30 @@
+.container
+  %section.mt-4
+    .row.justify-content-center
+      .col-md-8
+        .card-body
+          %h1.display-2.m-0.mb-4.mr-2
+            = @news.title
+          %h3.mb-3
+            = @news.short_information
+          .m-4.user-short-info
+            .thumbnail-social-icon.mr-2
+              = link_to image_tag(@news.user.avatar_url), user_path(@news.user.id)
+            %p.ml-2.mb-1
+              %b
+                = link_to_user(@news.user)
+            %p.m-0
+              = @news.created_at.to_date
+          .view.overlay.rounded-top
+          .thumbnail-news
+            = image_tag @news.image_url
+          %h4.text-left.mt-4.mb-2
+            = @news.body.html_safe
+          %p.mt-4.text-right
+            = t('news.links.share')
+            = render 'share_buttons', news: @news
+          %br
+        %ul
+          = render 'comments/form'
+          = render partial: 'comments/comment', collection: @news.comments
+      = render 'related_news'

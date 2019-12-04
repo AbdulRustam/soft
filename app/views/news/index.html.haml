@@ -1,0 +1,17 @@
+.container.p-0
+  .row.justify-content-center.mt-4.p-0
+    .col-lg-7
+      %h3
+        = render 'selector'
+      %h2
+        = t('news.index.university_news')
+      %p
+        = t('news.index.sort_by')
+        = link_to t('news.links.popular'), news_index_path(ordered_by_views: true), remote: true,
+          id: 'most-popular', class: 'ml-2'
+        = link_to t('news.links.recent'), news_index_path(ordered_by_views: false), remote: true,
+          id: 'most-popular', class: 'ml-2'
+      #news
+        = render @news
+    = render 'aside_bar'
+  = will_paginate @news

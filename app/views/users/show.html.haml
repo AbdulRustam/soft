@@ -1,0 +1,8 @@
+.container.p-0
+  %h1.mb-3
+    = t ('users.edit.profile')
+  .row
+    .col-md-5.col-xl-3
+      = render 'menu', user: @user
+    .col-md-7.col-xl-9
+      = render 'form', user: @user
